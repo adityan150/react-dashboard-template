@@ -2,7 +2,7 @@
   "name": "dashboard",
   "version": "0.1.0",
   "homepage": "https://adityan150.github.io/react-dashboard-template",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
