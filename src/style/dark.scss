@@ -1,0 +1,162 @@
+.app.dark {
+  background-color: #222;
+  color: #d3d3d3;
+
+  .sidebar {
+    background-color: #252525;
+    color: #d3d3d3;
+    border-right: 0.5px solid #555;
+    .top {
+      .logo {
+        color: #8080ff;
+      }
+    }
+    hr {
+      border: 0.5px solid #555;
+    }
+    .center {
+      ul {
+        .title {
+          color: #bbb;
+        }
+
+        li {
+          &:hover {
+            background-color: #333;
+          }
+          .icon {
+            color: #8080ff;
+          }
+          span {
+            color: #aaa;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar {
+    border-bottom: 0.5px solid #555;
+    color: #d3d3d3;
+
+    .search {
+      border: 0.5px solid #555;
+
+      input {
+        &::placeholder {
+          color: #d3d3d3;
+        }
+      }
+    }
+  }
+
+  .home {
+    .homeContainer {
+      .listContainer {
+        background-color: #333;
+        box-shadow: 3px 3px 20px -8px rgba(77, 77, 77, 1);
+        .listTitle {
+          color: lightgray;
+        }
+      }
+    }
+  }
+
+  .datatable {
+    .datatableTitle {
+      color: #d3d3d3;
+      .link {
+        color: #00b300;
+        border: 1px solid #006600;
+      }
+    }
+    .datagrid {
+      color: #d3d3d3;
+      border: none;
+      & .MuiCheckbox-root svg {
+        color: #d3d3d3;
+      }
+      & .MuiPaginationItem-root {
+        border: none;
+        color: #d3d3d3;
+      }
+    }
+    .cellWithStatus {
+      &.Active,
+      &.Passive,
+      &.Pending {
+        background-color: #333;
+      }
+    }
+    .cellAction {
+      .viewButton {
+        color: #d3d3d3;
+        background-color: #333;
+      }
+      .editButton {
+        color: #d3d3d3;
+        background-color: #333;
+      }
+      .deleteButton {
+        color: #d3d3d3;
+        background-color: #333;
+      }
+    }
+  }
+
+  .table {
+    background-color: #2e2e2e;
+    .tableHeader {
+      // background-color: #333;
+      color: #d3d3d3;
+    }
+    .cellWrapper {
+      color: #d3d3d3;
+    }
+    .tablecell {
+      color: #d3d3d3;
+    }
+  }
+
+  .widget,
+  .chart,
+  .featured {
+    background-color: #333;
+    box-shadow: 3px 3px 20px -22px rgba(77, 77, 77, 1);
+  }
+
+  .new {
+    .newContainer {
+      .top,
+      .bottom {
+        background-color: #333;
+        box-shadow: 3px 3px 20px -22px rgba(77, 77, 77, 1);
+      }
+    }
+  }
+
+  .single {
+    .singleContainer {
+      .title {
+        color: #d3d3d3;
+      }
+      .top {
+        .left,
+        .right {
+          background-color: #333;
+          box-shadow: 3px 3px 20px -22px rgba(77, 77, 77, 1);
+        }
+
+        .left {
+          .itemTitle {
+            color: #d3d3d3;
+          }
+        }
+      }
+      .bottom {
+        background-color: #333;
+        box-shadow: 3px 3px 20px -22px rgba(77, 77, 77, 1);
+      }
+    }
+  }
+}

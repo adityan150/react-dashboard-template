@@ -1,0 +1,87 @@
+.single {
+  display: flex;
+  width: 100%;
+
+  .singleContainer {
+    flex: 6;
+
+    .top {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: row;
+      gap: 1.8rem;
+
+      .left {
+        padding: 1rem;
+        flex: 1;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+          rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        border-radius: 0.5rem;
+        position: relative;
+
+        .editButton {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 0.5rem 1.5rem;
+          font-size: 0.8rem;
+          color: #7451f8;
+          background-color: #7551f818;
+          cursor: pointer;
+          border-radius: 0 0.5rem 0 0.25rem;
+        }
+
+        .item {
+          display: flex;
+          .itemImage {
+            width: 10rem;
+            height: 10rem;
+            margin-right: 1.5rem;
+            border-radius: 50%;
+          }
+          .details {
+            .itemTitle {
+              margin-bottom: 0.8rem;
+              color: #555;
+            }
+
+            .detailItem {
+              margin-bottom: 0.8rem;
+              font-size: 1rem;
+
+              .itemKey {
+                font-weight: bold;
+                color: gray;
+                margin-right: 0.5rem;
+              }
+              .itemValue {
+                font-weight: 300;
+              }
+            }
+          }
+        }
+      }
+
+      .right {
+        flex: 2;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+          rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        border-radius: 0.5rem;
+      }
+    }
+
+    .title {
+      font-size: 1rem;
+      color: lightgray;
+      margin-bottom: 1.2rem;
+    }
+
+    .bottom {
+      padding: 1.5rem;
+      margin: 0.5rem 1.5rem 2rem 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    }
+  }
+}
